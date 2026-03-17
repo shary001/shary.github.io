@@ -1,230 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kabuye - Aspiring Web Developer</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- For social icons (optional CDN - lightweight) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container nav-container">
-      <a href="#" class="logo">KSR</a>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <head>
+    <title>Sharif R – Front-End Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <div class="container hero-container">
-      <div class="hero-text">
-        <h1>Kabuye Sharif R</h1>
-        <h2>Front end developer</h2>
-        <p>Building clean, responsive, and user-friendly websites
-           with passion and modern technologies.
-           Together with UI/UX designs from Figma and Canva. 
-           I create beautiful and user friendly websites.
-           I'm passionate about bringing creative ideas to life through code.
-        </p>
-        <a href="#projects" class="btn primary">View My Work</a>
-      </div>
-      <div class="hero-image">
-        <img src="img2.jpg" alt="Profile" />
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section about">
-    <div class="container1">
-      <div class="about-grid">
-        <div class="education">
-          <img src="img2.jpg" class = "im2">
+    <!---Header-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="header-inner">
+          <div class="logo-icon"><b class="icon-logo">🖱️</b></div>
+          <div class="logo-text">
+            <span class="logo-title">SHARIF</span>
+            <span class="logo-subtitle">Developer</span>
+          </div>
         </div>
-        <div class="about-text">
-          <p class="pmain">About Me</p>
-          <p>Hello! I'm Kabuye, a passionate student developer from Kampala, Uganda, currently exploring the world of web development. I love turning ideas into interactive digital experiences using HTML, CSS, and JavaScript.</p>
-          <p>I am pursuing a degree in Software Engineering / Computer Science and continuously learning new tools and best practices. My goal is to become a full-stack developer who builds scalable, accessible, and beautiful applications that solve real-world problems.</p>
-          <p>In my free time, I contribute to open-source projects, experiment with UI/UX design trends, and work on personal apps. I'm excited about the future of web technologies like Web3, AI integration, and performance optimization.</p>
-          <br>
-          <div class="nav-container2">
-            <ul class="abt-btns">
-              <li><a href="#" class="btns">Education</a></li>
-              <li><a href="#" class="btns">Background</a></li>
-              <li><a href="#" class="btns">Experience</a></li>
-              <li><a href="#" class="btns">Skills</a></li>
+
+        <!-- Hamburger button (mobile only) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!--nav links-->
+        <div class="nav-list" id="nav-list">
+          <nav>
+            <ul>
+              <li class="list1"><a href="#" class="list-link">Home</a></li>
+              <li class="list1"><a href="#got" class="list-link">About</a></li>
+              <li class="list1"><a href="#know" class="list-link">Skills</a></li>
+              <li class="list1"><a href="#projects" class="list-link">Projects</a></li>
+              <li class="list1"><a href="#callz" class="list-link">Contact</a></li>
             </ul>
-          </div>
-           <div class ="location1">
-            <img src="icon3.png" class ="iconz1">
-             <b class ="loc"> Han Street <br>Kampala-Uganda</b>
-           </div>
-          <br>
-          <a href="#" class="btn2">Download CV</a>
+          </nav>
+        </div>
+
+        <div class="signup-content">
+          <button type="button" class="signup"><a href="#callz" class="access">Hire Me</a></button>
+          <button type="button" class="login"><a href="#callz" class="access">Contact</a></button>
+        </div>
+      </nav>
+    </header>
+
+    <!--Hero section-->
+    <div class="hero-container">
+      <div class="image1-container">
+        <img src="img2.jpg" alt="Sharif R – Front-End Developer" class="hero-image">
+      </div>
+
+      <div class="hero-content">
+        <h1>SHARIF .R</h1>
+        <p class="para1">Hi, I'm Sharif .R, a Front-End Developer. I love coding to improve the world through digital means.
+          Building websites and developing real-world problem-solving systems is my passion. Reach out — let's transform the world together through IT solutions.
+        </p>
+        <div class="getcv">
+          <a href="#" class="cvlink">Download CV</a>
+        </div>
+      </div>
+
+      <div class="pdct">
+        <div class="cardz1">
+          <img src="lap.png" alt="Computers" class="heropd"><hr>
+          <span class="heading">Computers</span>
+          <span class="ctnt">Get new quality computers here and all other tech gadgets, RAM chips and more.</span>
+          <button type="button" class="View1"><a href="#" class="vw1">View all</a></button>
+        </div>
+
+        <div class="cardz2">
+          <img src="notes.png" alt="Courses" class="heropd"><hr>
+          <span class="heading">Courses</span>
+          <span class="ctnt">Get all your notes in one place: HTML, CSS, JavaScript, Python, C++, C# and many more.</span>
+          <button type="button" class="View1"><a href="#" class="vw1">Get Notes</a></button>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section skills">
-    <div class ="skill-container">
-      <div class="container">
-        <h2 class="section-title3">My<span class="new1"> Skills</span></h2>
-       <div class="skills-grid">
+    <!--About me section-->
+    <div class="about-container" id="got">
+      <div class="abt-content">
+        <h2 class="abt-head">About Me</h2>
+        <p class="para2">Hi, I am Raiven — a curious Developer of front-end systems like websites.
+          I spend a lot of my free time working on side projects, majoring in Python.
+          Pursuing a degree in IT is my focus, and I am working on many projects to become better day by day.
+          Coding and AI are my niche. I can build systems based on your needs — slow but optimistic.
+        </p>
+        <p class="para3">
+          <img src="tdesign--location-filled.png" alt="location" class="loc1-icon">
+          <span class="abt-spn">P.O BOX 123</span>
+          <span class="abt-spn">Han Street</span>
+          <span class="abt-spn">Kampala, Uganda</span>
+        </p>
 
-        <div class="skill-card">
-          <img src="icon1 (3).png" alt="icon" class="icnz"><br>
-          <i class="fab fa-html5"></i> HTML5
-          <p>learn how to write html codes from zero to advanced with precision and attractive.</p><br>
-          <a href="#" class="more-link">See more</a>
+        <p class="para4">
+          <img src="ri--phone-line.png" alt="contact info" class="cont1">
+          <span class="abt-spn">Tel: +256 709 553 026</span>
+          <span class="abt-spn">Email: kabuyesharif30@gmail.com</span>
+        </p>
+        <div class="abt-buttons">
+          <button type="button" class="view1"><a href="#know" class="viewl">Skills</a></button>
+          <button type="button" class="view1"><a href="#projects" class="viewl">Projects</a></button>
+          <button type="button" class="view1"><a href="#callz" class="viewl">Contact</a></button>
         </div>
+      </div>
 
-        <div class="skill-card">
-          <img src="icon1 (5).png" alt="icon" class="icnz"><br>
-          <i class="fab fa-css3-alt"></i> CSS3
-          <p>Styleyour Website to the next generation designs and style plus trends that fit you.</p><br>
-          <a href="#" class="more-link">See more</a>
-        </div>
+      <div class="abt-image">
+        <img src="img2.jpg" alt="Sharif R" class="about-image">
+      </div>
+    </div>
 
-        <div class="skill-card">
-          <img src="icon1 (2).png" alt="icon" class="icnz"><br>
-          <i class="fab fa-js"></i> JavaScript
-          <p>Get the trending responsive design website that are user friendly.</p><br>
-          <a href="#" class="more-link">See more</a>
+    <!--Skills and Projects-->
+    <h3 class="sp" id="know">Skills &amp; <span class="spp">Projects</span></h3>
+    <div class="proski-tab">
+      <div class="skills-set">
+        <div class="card1">
+          <h4>HTML</h4>
+          <p class="skill-para">Creating numerous HTML files from scratch and AI integration.</p>
+          <a href="#" class="skil-links">See more</a>
         </div>
-        
-        <div class="skill-card">
-          <img src="icon1 (6).png" alt="icon" class="icnz1"><br>
-          <i class="fab fa-react"></i> React Basics
-          <p>We use react to add more life to the look and feel of websites.</p><br>
-          <a href="#" class="more-link">See more</a>
+        <div class="card2">
+          <h4>CSS</h4>
+          <p class="skill-para">Prize a website with modern CSS styling effects and animations.</p>
+          <a href="#" class="skil-links">See more</a>
         </div>
-        
-        <div class="skill-card">
-          <img src="icon1 (4).png" alt="icon" class="icnz1"><br>
-          <i class="fab fa-git-alt"></i> Git & GitHub
-          <p>Get a dummy Domain name for your website befor actual launch.</p><br>
-          <a href="#" class="more-link">See more</a>
+        <div class="card3">
+          <h4>Figma</h4>
+          <p class="skill-para">User interface design and actualization in one place.</p>
+          <a href="#" class="skil-links">See more</a>
         </div>
-        
-        <div class="skill-card">
-          <img src="icon1 (1).png" alt="icon" class="icnz1"><br>
-          <i class="fas fa-paint-brush"></i> UI/UX Design
-          <p>Get a dummy web design for your website befor actual launch.</p><br>
-          <a href="#" class="more-link">See more</a>
+      </div>
+
+      <!--Projects-->
+      <div class="project-house" id="projects">
+        <div class="port1">
+          <img src="pot.png" alt="Portfolio project" class="p-image"><hr>
+          <h5>Portfolio</h5>
+          <p class="proje-p">A well-designed landing page with elegance and modern fit for business.</p>
+        </div>
+        <div class="port1">
+          <img src="download.png" alt="Sacco system" class="p-image"><hr>
+          <h5>Python Project</h5>
+          <p class="proje-p">A savings and credit cooperative system that manages loans and savings.</p>
         </div>
       </div>
     </div>
-    </div>
-  </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section projects">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        
-        <div class="project-card">
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop" alt="Project 1">
-          <div class="project-info">
-            <h3>Task Manager App</h3>
-            <p>A responsive to-do application with local storage, dark mode, and drag-and-drop using vanilla JS.</p>
-            <br>
-            <a href="#" class="btn small">Live Demo</a>
-          </div>
+    <!--Contact area-->
+    <h1 class="contact-heading">Get in Touch</h1>
+    <div class="contact-section" id="callz">
+      <div class="left-side1">
+        <div class="contact-icon">
+          <p class="conp">
+            <img src="ri--phone-line.png" alt="phone" class="one-icon">
+            <span class="pcon">+256 709 553 026</span>
+          </p>
         </div>
-
-        <div class="project-card">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop" alt="Project 2">
-          <div class="project-info">
-            <h3>Personal Finance Tracker</h3>
-            <p>Simple expense tracker with charts (Chart.js) and category-based filtering. Mobile-friendly UI.</p>
-            <br>
-            <a href="#" class="btn small">Live Demo</a>
-          </div>
+        <div class="email-icon">
+          <p class="conp">
+            <img src="iconamoon--email-light.png" alt="email" class="one-icon">
+            <span class="pcon">kabuyesharif30@gmail.com</span>
+          </p>
         </div>
-
-        <div class="project-card">
-          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop" alt="Project 3">
-          <div class="project-info">
-            <h3>Portfolio Website</h3>
-            <p>Clean, animated single-page portfolio built only with HTML & CSS – responsive & modern.</p>
-            <br>
-            <a href="#" class="btn small">View Code</a>
-          </div>
+        <div class="loc-icon">
+          <p class="conp">
+            <img src="tdesign--location-filled.png" alt="location" class="one-icon">
+            <span class="con-spn">P.O BOX 123</span>
+            <span class="con-spn">Han Street</span>
+            <span class="con-spn">Kampala, Uganda</span>
+          </p>
         </div>
-
+        <div class="social-iconz">
+          <a href="#" class="iconz-link"><img src="ph--facebook-logo-thin.png" alt="Facebook" class="img-link"></a>
+          <a href="#" class="iconz-link"><img src="et--linkedin.png" alt="LinkedIn" class="img-link"></a>
+          <a href="#" class="iconz-link"><img src="hugeicons--new-twitter-ellipse.png" alt="Twitter/X" class="img-link"></a>
+          <a href="https://wa.me/256774306212?text=Hello%20I%20have%20a%20question" target="_blank" rel="noopener noreferrer" class="iconz-link"><img src="basil--whatsapp-outline.png" alt="WhatsApp" class="img-link"></a>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section contact">
-    <div class ="touch">
-      <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <p class="touch-contain"><a href = "kabuyesharif30@gmail.com" class="aa"><i class="fas fa-envelope"></i>
-            <img src="touch (1).png" class="t1">
-          <b class="bb">E-mail</b>          
-          </a></p>
-            
-          <p class="touch-contain"><i class="fas fa-phone"></i><a href="#" class="aa">
-          <img src="touch (3).png" class="t1">
-          <b class="bb">Contact</b>
-          </a>
-          </p>
-
-          <p class="touch-contain"><i class="fas fa-linkedin"></i><a href="#" class="aa">
-          <img src="touch (2).png" class="t1">
-          <b class="bb">LinkedIn</b>
-          </a>
-          </p>
-
-          <p class="touch-contain"><i class="fas fa-Git"></i><a href="#" class="aa">
-          <img src="icon1 (4).png" class="t1">
-          <b class="bb">Visit Web</b>
-          </a>
-          </p>
-
-          <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-          </div>
-        </div>
-        <form class="contact-form">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" rows="4" required></textarea>
-          <button type="submit" class="lastbtn">Send Message</button>
+      <div class="form-area">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" autocomplete="on" class="form1">
+          <input type="text" name="name" placeholder="Your Name" autocomplete="name" required class="in-form">
+          <input type="email" name="email" placeholder="Your Email" autocomplete="email" required class="in-form">
+          <textarea name="message" placeholder="Your Message" required class="in-form1"></textarea>
+          <button type="submit" class="sub-btn">Send Message</button>
         </form>
       </div>
     </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; <span id="year"></span> Kabuye. All rights reserved.</p>
+    <!--Footer-->
+    <div class="footer">
+      <p>+256 709 553 026</p>
+      <a href="mailto:kabuyesharif30@gmail.com" class="mail-link"><p>kabuyesharif30@gmail.com</p></a>
+      <p>© Kabuye Sharif</p>
+      <p>Front-End Developer</p>
+      <a href="#" class="linkedin"><p>LinkedIn</p></a>
     </div>
-  </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
+    <script>
+      // Hamburger menu toggle
+      const hamburger = document.getElementById('hamburger');
+      const navList = document.getElementById('nav-list');
+
+      hamburger.addEventListener('click', () => {
+        const isOpen = navList.classList.toggle('nav-open');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        hamburger.classList.toggle('active', isOpen);
+      });
+
+      // Close nav when a link is clicked (mobile UX)
+      navList.querySelectorAll('.list-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navList.classList.remove('nav-open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+        });
+      });
+    </script>
+  </body>
 </html>
